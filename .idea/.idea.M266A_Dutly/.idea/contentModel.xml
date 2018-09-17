@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\vmadmin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vmadmin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_M266A_Dutly.-561382957.00" t="ExcludeRecursive" />
+    <e p="C:\Users\vmadmin\RiderProjects\M266A_Dutly" t="IncludeFlat">
+      <e p="M266A_Dutly" t="IncludeRecursive">
+        <e p="America.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DrawPictures.cs" t="Include" />
+        <e p="M266A_Dutly.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Oxen.cs" t="Include" />
+        <e p="People.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RandomEventAbandonedWagon.cs" t="Include" />
+        <e p="RandomEventBandits.cs" t="Include" />
+        <e p="RandomEventXY.cs" t="Include" />
+        <e p="RandomVillageEncounter.cs" t="Include" />
+        <e p="Resources.cs" t="Include" />
+      </e>
+      <e p="M266A_Dutly.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+C:\Users\vmadmin\RiderProjects\M266A_Dutly\M266A_Dutly\bin\Debug\M266A_Dutly.exe
+C:\Users\vmadmin\RiderProjects\M266A_Dutly\M266A_Dutly\bin\Debug\M266A_Dutly.pdb
+C:\Users\vmadmin\RiderProjects\M266A_Dutly\M266A_Dutly\obj\Debug\M266A_Dutly.csprojResolveAssemblyReference.cache
+C:\Users\vmadmin\RiderProjects\M266A_Dutly\M266A_Dutly\obj\Debug\M266A_Dutly.exe
+C:\Users\vmadmin\RiderProjects\M266A_Dutly\M266A_Dutly\obj\Debug\M266A_Dutly.pdb
