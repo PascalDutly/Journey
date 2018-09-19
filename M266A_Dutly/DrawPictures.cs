@@ -9,14 +9,14 @@ namespace M266A_Dutly
         {
             Random rnd = new Random();
             
-            for (int j = 0; j < 400; j++)
+            for (int j = 0; j < 396; j++)
             {
                 int whiteSpace = rnd.Next(5, 25);
                 for (int i = 0; i < whiteSpace; i++)
                 {
                     Console.Write(" ");
                 }
-                //I did the if statements like this
+                //The color of the stars get changed depending on the value of whiteSpace
                 if (whiteSpace < 12)
                     Console.ForegroundColor = ConsoleColor.Blue;
                 

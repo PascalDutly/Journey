@@ -7,10 +7,10 @@ namespace M266A_Dutly
     {
         public static void PrintText()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Your bored eyes look around this empty desert, when suddenly you see a wagon. There seems to be no one left. " +
                               "Maybe there could be some loot.");
-            
+            Console.WriteLine("This wagon was probably robbed by bandits. Not much is left.");
             Console.ResetColor();
             Result();
         }
@@ -21,10 +21,14 @@ namespace M266A_Dutly
             Random rnd = new Random();
             int a = rnd.Next(1, 8);
             int b = rnd.Next(1, 6);
+            int c = rnd.Next(5, 31);
             resources.Food += a;
             resources.Oxfood += b;
+            resources.Money += c;
 
-            Console.WriteLine("You found {0} food and {1} oxfood.", a, b);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("You found {0} food, {1} oxfood and {2} Dollars.", a, b, c);
+            Console.ResetColor();
         }
         
         //This code would've drawn a wagon. The end result however looked like nothing so i scrapped the idea. The concept only works with simple drawings.

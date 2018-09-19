@@ -3,8 +3,6 @@ using System.Runtime.CompilerServices;
 
 namespace M266A_Dutly
 {
-    
-    
     public class Resources
     {
         private static int _food = 15;
@@ -32,17 +30,19 @@ namespace M266A_Dutly
             {
                 Console.WriteLine("Your hunt failed. You got no food.");
             }
+
             _food = _food + _foodGathered;
             Console.WriteLine("Food: " + _food);
             Console.ResetColor();
-            Console.WriteLine("___________________");
+            Console.WriteLine("_________________________________");
         }
+
         //A random number between 0 and 15 gets added to Oxfood
         public void HuntOxenFood()
         {
             Random rnd = new Random();
             _foodGathered = rnd.Next(_maxOxFoodRate);
-            
+
             Console.ForegroundColor = ConsoleColor.Yellow;
             if (_foodGathered != 0)
             {
@@ -53,28 +53,50 @@ namespace M266A_Dutly
             {
                 Console.WriteLine("Your hunt failed.");
             }
+
             _oxfood = _oxfood + _foodGathered;
+            Console.ResetColor();
+            Console.WriteLine("_________________________________");
+        }
+
+        //Every round this method gets called automatically. It gives your people and your oxen Food.
+        public void GiveFood()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+
+            _food = _food - People.PersonCount;
+            _oxfood = _oxfood - Oxen.OxCount;
+            if (_food <= 0)
+            {
+                _food = 0;
+                Console.WriteLine("There is not enough food left for all.");
+                People.PersonCount--;
+            }
+            
+            if (_oxfood <= 0)
+            {
+                _oxfood = 0;
+                Console.WriteLine("Your oxen don't have enough food. One of them can't move anymore");
+                Oxen.OxCount--;
+            }
+            
+
             Console.ResetColor();
         }
 
-        public void GiveFood()
-        {
-            _food = _food - People.PersonCount;
-            _oxfood = _oxfood - Oxen.OxCount;
-        }
-        
         //This method shows you your items
-        public void ItemStatus()
+        public static void ItemStatus()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Money: " + _money + "Dollars");
+            Console.WriteLine("Money: " + _money + " Dollars");
             Console.WriteLine("Food: " + _food);
             Console.WriteLine("OxFood: " + _oxfood);
             Console.WriteLine("Medicine: " + _medicine);
+            Console.WriteLine("Oxen: " + Oxen.OxCount);
+            Console.WriteLine("People: " + People.PersonCount);
             Console.ResetColor();
         }
-        
-        
+
 
         public int FoodGathered
         {

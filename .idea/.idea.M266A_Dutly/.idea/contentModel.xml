@@ -18,6 +18,7 @@
         </e>
         <e p="RandomEventAbandonedWagon.cs" t="Include" />
         <e p="RandomEventBandits.cs" t="Include" />
+        <e p="RandomEventStarvingPerson.cs" t="Include" />
         <e p="RandomEventXY.cs" t="Include" />
         <e p="RandomVillageEncounter.cs" t="Include" />
         <e p="Resources.cs" t="Include" />

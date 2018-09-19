@@ -24,12 +24,7 @@ namespace M266A_Dutly
                 Console.WriteLine("There is only {0} ox left. You should buy or find a new one.", _oxCount);
             }
         }
-        //This is the same as OxDies() but it has a unique text
-        public void OxDiesFromStarvation()
-        {
-            _oxCount--;
-            Console.WriteLine("One ox died from starvation. You should really get them some food.");
-        }
+        
         //This adds an ox.
         public void OxAdd()
         {
