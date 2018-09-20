@@ -35,6 +35,7 @@ namespace M266A_Dutly
         //The game will progress 10 km per round (How many rounds = difficulty / 10)
         public static void SetDifficulty()
         {
+            Console.WriteLine("You chose to start a new game (Your savefiles still exist)");
             Console.WriteLine("Choose your difficulty! 50 is easy, 500 is hard");
             _difficulty = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your journey will be {0} Kilometers long", _difficulty);
@@ -47,6 +48,7 @@ namespace M266A_Dutly
             Console.WriteLine("Press [2] to gather food for your oxen in the wild");
             Console.WriteLine("Press [3] to see your items");
             Console.WriteLine("Press [4] to save your game");
+            Console.WriteLine("Press [5] to delete your protocol (Clear the console window)");
             Console.WriteLine("Press [0] to end the game");
         }
 
@@ -71,6 +73,10 @@ namespace M266A_Dutly
                     this.Save();
                     this.Start();
                     break;
+                case 5:
+                    Console.Clear();
+                    this.Start();
+                    break;
                 case 0:
                     Environment.Exit(0);
                     break;
@@ -89,7 +95,7 @@ namespace M266A_Dutly
             //Console.ForegroundColor = ConsoleColor.Blue;
 
             Random rnd = new Random();
-            int random = rnd.Next(1, 5);
+            int random = rnd.Next(1, 6);
 
             switch (random)
             {
@@ -105,7 +111,11 @@ namespace M266A_Dutly
                     randomEventStarvingPerson.PrintText();
                     break;
                 case 4:
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    RandomEventWeirdStone randomEventWeirdStone = new RandomEventWeirdStone();
+                    randomEventWeirdStone.PrintText();
+                    break;
+                case 5:
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine(
                         "Today is a calm day. Nothing special seems to happen. Consider yourself lucky. Not every day goes so well");
                     Console.ResetColor();
@@ -123,11 +133,15 @@ namespace M266A_Dutly
             {
                 Console.WriteLine(
                     "All of your oxen died. You're left in the middle of nowhere. Your journey ends here. Game Over");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
 
             if (People.AllPersonsDead == true)
             {
                 Console.WriteLine("Every person died. Game Over");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
 
             if (_difficulty <= 0)
@@ -175,8 +189,9 @@ namespace M266A_Dutly
             };
             System.IO.File.WriteAllLines(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGame" + saveSlot +".txt", items);
 
-            string text = System.IO.File.ReadAllText(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGame" + saveSlot + ".txt");
-            Console.Write(text);
+            //string text = System.IO.File.ReadAllText(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGame" + saveSlot + ".txt");
+            //Console.Write(text);
+            Console.WriteLine("Game save successful!");
             Console.WriteLine();
         }
 

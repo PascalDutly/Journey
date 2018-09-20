@@ -6,7 +6,7 @@ namespace M266A_Dutly
     public class Resources
     {
         private static int _food = 15;
-        private static int _money = 100;
+        private static int _money = 70;
         private static int _oxfood = 15;
         private static int _medicine = 2;
         private int _maxFoodRate = 10;

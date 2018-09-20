@@ -18,8 +18,9 @@ namespace M266A_Dutly
             {
                 case 1:
                     Console.WriteLine("In the distance you see something. There seems to be a village. You immediately head towards it!");
-                    VillageGameplay();
                     Console.ResetColor();
+                    VillageGameplay();
+                    
                     break;
                 case 2:
                     Console.WriteLine("In the distance you see something. When you go towards it it suddenly disappears. It was only an illusion. Apparently this journey is making you crazy");
@@ -69,6 +70,7 @@ namespace M266A_Dutly
             Console.WriteLine("Press [2] to buy 10 Food (20 Dollars)");
             Console.WriteLine("Press [3] to buy 10 oxfood (15 Dollars)");
             Console.WriteLine("Press [4] to buy 1 medicine (25 Dollars)");
+            Console.WriteLine("Press [5] to sell an ox (+70 Dollars)");
             Console.WriteLine("Press [0] to leave the shop");
         }
         
@@ -101,6 +103,10 @@ namespace M266A_Dutly
                     resources.Medicine++;
                     Console.ResetColor();
                     break;
+                case 5:
+                    Oxen.OxCount--;
+                    resources.Money += 70;
+                    break;
                 case 0:
                     this.VillageGameplay();
                     break;
@@ -119,6 +125,7 @@ namespace M266A_Dutly
             if (resources.Money < moneyRequired)
             {
                 Console.WriteLine("You don't have enough money");
+                Console.ResetColor();
                 this.VillageGameplay();
             }
             else

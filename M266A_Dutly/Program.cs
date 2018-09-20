@@ -10,9 +10,14 @@ namespace M266A_Dutly
         {
             America america = new America();
 
+            string title = System.IO.File.ReadAllText(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\TitleScreen.txt");
+            Console.Write(title);
+            Console.WriteLine();
+            
             Console.WriteLine("Do you want to load a savegame? [y/n]");
             if (Console.ReadLine() == "y")
             {
+                Console.WriteLine();
                 LoadGame();
             }
             else
@@ -24,9 +29,10 @@ namespace M266A_Dutly
 
         public static void LoadGame()
         {
-            Resources resources = new Resources();
+            Console.WriteLine("What savegame do you want to load? (Only type in the number)");
 
-            Console.WriteLine("What savegame do you want to load?");
+            PrintSaveGameNames();
+            
             int saveSlot = Convert.ToInt32(Console.ReadLine());
 
             if (File.Exists(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGame" + saveSlot +
@@ -40,19 +46,20 @@ namespace M266A_Dutly
                                                saveSlot + ".txt");
                 while ((items[counter] = file.ReadLine()) != null)
                 {
-                    System.Console.WriteLine(items[counter]);
+                    //Console.WriteLine(items[counter]);
                     counter++;
                 }
 
                 file.Close();
 
+                America america = new America();
+                Resources resources = new Resources();
                 resources.Money = Convert.ToInt32(items[0]);
                 resources.Food = Convert.ToInt32(items[1]);
                 resources.Medicine = Convert.ToInt32(items[2]);
                 resources.Oxfood = Convert.ToInt32(items[3]);
                 Oxen.OxCount = Convert.ToInt32(items[4]);
                 People.PersonCount = Convert.ToInt32(items[5]);
-                America america = new America();
                 america.Difficulty = Convert.ToInt32(items[6]);
                 Console.WriteLine("file loaded successfully!");
                 america.Start();
@@ -60,11 +67,18 @@ namespace M266A_Dutly
             else
             {
                 Console.WriteLine("This savegame doesn't exist");
+                
             }
         }
 
-        public void ReadFileLineByLine()
+        public static void PrintSaveGameNames()
         {
+            System.IO.DirectoryInfo ParentDirectory = new System.IO.DirectoryInfo(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames");
+
+            foreach (System.IO.FileInfo f in ParentDirectory.GetFiles())
+            {
+                Console.WriteLine("Savefile: " + f.Name);
+            }
         }
     }
 }

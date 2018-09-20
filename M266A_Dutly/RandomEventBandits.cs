@@ -49,8 +49,10 @@ namespace M266A_Dutly // UNFINISHED
             switch (outcome)
             {
                 case 1:
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine(
                         "They didn't expect you to be so courageous. They flee in fear. What a bunch of amateurs");
+                    Console.ResetColor();
                     break;
                 case 2:
                     Console.ForegroundColor = ConsoleColor.DarkRed;

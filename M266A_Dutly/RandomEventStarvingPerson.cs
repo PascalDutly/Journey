@@ -44,16 +44,9 @@ namespace M266A_Dutly
         {
             Resources resources = new Resources();
 
-            resources.Medicine--;
-            resources.Food -= 5;
-            People.PersonCount++;
+            this.CheckIfEnoughItems(1, 5);
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(
-                "He is grateful for your kindness. He asks if he could help you on your journey. You can't leave him in the desert so you take him with you.");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Now {0} People are part of your party", People.PersonCount);
-            Console.ResetColor();
+            
         }
         //Nothing really happens
         public void Option2()
@@ -63,7 +56,7 @@ namespace M266A_Dutly
             Console.ResetColor();
         }
         //You get a little money
-        public void Option3()
+        private void Option3()
         {
             Resources resources = new Resources();
             Random rnd = new Random();
@@ -72,6 +65,28 @@ namespace M266A_Dutly
 
             resources.Money += loot;
             Console.WriteLine("You got {0} Dollars, but was it really worth it?", loot);
+        }
+
+        private void CheckIfEnoughItems(int medicineRequired, int foodRequired)
+        {
+            Resources resources = new Resources();
+            if (medicineRequired > resources.Medicine || foodRequired > resources.Food)
+            {
+                Console.WriteLine("You don't have enough items");
+                this.PrintText();
+            }
+            else
+            {
+                resources.Medicine--;
+                resources.Food -= 5;
+                People.PersonCount++;
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine(
+                    "He is grateful for your kindness. He asks if he could help you on your journey. You can't leave him in the desert so you take him with you.");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Now {0} People are part of your party", People.PersonCount);
+                Console.ResetColor();
+            }
         }
     }
 }

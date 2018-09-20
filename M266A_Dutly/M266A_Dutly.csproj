@@ -40,7 +40,7 @@
   <ItemGroup>
     <Compile Include="America.cs" />
     <Compile Include="RandomEventStarvingPerson.cs" />
-    <Compile Include="RandomEventXY.cs" />
+    <Compile Include="RandomEventWeirdStone.cs" />
     <Compile Include="DrawPictures.cs" />
     <Compile Include="Oxen.cs" />
     <Compile Include="People.cs" />
