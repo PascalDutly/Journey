@@ -39,6 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="America.cs" />
+    <Compile Include="RandomEventDisease.cs" />
+    <Compile Include="RandomEventRiver.cs" />
     <Compile Include="RandomEventStarvingPerson.cs" />
     <Compile Include="RandomEventWeirdStone.cs" />
     <Compile Include="DrawPictures.cs" />

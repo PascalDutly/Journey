@@ -72,13 +72,15 @@ namespace M266A_Dutly
             Resources resources = new Resources();
             if (medicineRequired > resources.Medicine || foodRequired > resources.Food)
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("You don't have enough items");
+                Console.ResetColor();
                 this.PrintText();
             }
             else
             {
-                resources.Medicine--;
-                resources.Food -= 5;
+                resources.Medicine -= medicineRequired;
+                resources.Food -= foodRequired;
                 People.PersonCount++;
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine(

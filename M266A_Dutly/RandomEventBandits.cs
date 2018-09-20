@@ -40,7 +40,7 @@ namespace M266A_Dutly // UNFINISHED
                     break;
             }
         }
-
+        //This method you have a 50/50 chance that one of your people dies
         public void Option1()
         {
             Console.WriteLine("You take out your revolver and shoot.");
@@ -62,11 +62,11 @@ namespace M266A_Dutly // UNFINISHED
                     People.PersonDies();
                     break;
                 default:
-                    Console.WriteLine("This message should not appear");
+                    Console.WriteLine("This message should not appear. If it does, i made a mistake. The Dutly IT industries devteam thanks you for your support!");
                     break;
             }
         }
-
+        //This method you have a 50/50 chance that one of your people dies + if not they leave some items behind
         public void Option2()
         {
             Resources resources = new Resources();
@@ -98,7 +98,7 @@ namespace M266A_Dutly // UNFINISHED
             }
             Console.ResetColor();
         }
-
+        //You give them your items except for 5 food, 10 Dollars, 5 Oxfood
         public void Option3()
         {
             Resources resources = new Resources();

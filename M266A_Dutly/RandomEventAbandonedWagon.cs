@@ -5,7 +5,7 @@ namespace M266A_Dutly
 {
     public class RandomEventAbandonedWagon
     {
-        public static void PrintText()
+        public void PrintText()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Your bored eyes look around this empty desert, when suddenly you see a wagon. There seems to be no one left. " +

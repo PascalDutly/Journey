@@ -29,7 +29,9 @@ namespace M266A_Dutly
         public void Progress()
         {
             _difficulty = _difficulty - 10;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("There are only {0} km left", _difficulty);
+            Console.ResetColor();
         }
 
         //The game will progress 10 km per round (How many rounds = difficulty / 10)
@@ -95,7 +97,7 @@ namespace M266A_Dutly
             //Console.ForegroundColor = ConsoleColor.Blue;
 
             Random rnd = new Random();
-            int random = rnd.Next(1, 6);
+            int random = rnd.Next(1, 7);
 
             switch (random)
             {
@@ -104,7 +106,8 @@ namespace M266A_Dutly
                     randomEventBandits.PrintText();
                     break;
                 case 2:
-                    RandomEventAbandonedWagon.PrintText();
+                    RandomEventAbandonedWagon randomEventAbandonedWagon = new RandomEventAbandonedWagon();
+                    randomEventAbandonedWagon.PrintText();
                     break;
                 case 3:
                     RandomEventStarvingPerson randomEventStarvingPerson = new RandomEventStarvingPerson();
@@ -115,6 +118,10 @@ namespace M266A_Dutly
                     randomEventWeirdStone.PrintText();
                     break;
                 case 5:
+                    RandomEventDisease randomEventDisease = new RandomEventDisease();
+                    randomEventDisease.PrintText();
+                    break;
+                case 6:
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine(
                         "Today is a calm day. Nothing special seems to happen. Consider yourself lucky. Not every day goes so well");
@@ -170,6 +177,7 @@ namespace M266A_Dutly
             Console.WriteLine("Score: {0}", rating);
             string text = System.IO.File.ReadAllText(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\You_Win.txt");
             Console.Write(text);
+            Console.ReadLine();
             Environment.Exit(0);
         }
 

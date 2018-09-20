@@ -26,7 +26,7 @@ namespace M266A_Dutly
                 america.Start();
             }
         }
-
+        //This method is for loading the Savegames. They are compatible with every version of the game
         public static void LoadGame()
         {
             Console.WriteLine("What savegame do you want to load? (Only type in the number)");
@@ -70,7 +70,7 @@ namespace M266A_Dutly
                 
             }
         }
-
+        //This code just displays the Savegames
         public static void PrintSaveGameNames()
         {
             System.IO.DirectoryInfo ParentDirectory = new System.IO.DirectoryInfo(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames");
@@ -87,6 +87,6 @@ namespace M266A_Dutly
 // Different things get displayed in different colors
 // Default color: Menu
 // Yellow: Information
-// Blue: Text
+// Cyan: Text
 // Green: Positive Event
 // Red: Negative event
