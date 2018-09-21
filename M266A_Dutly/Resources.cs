@@ -34,7 +34,7 @@ namespace M266A_Dutly
             _food = _food + _foodGathered;
             Console.WriteLine("Food: " + _food);
             Console.ResetColor();
-            Console.WriteLine("_________________________________");
+            //Console.WriteLine("_________________________________");
         }
 
         //A random number between 0 and 15 gets added to Oxfood
@@ -56,7 +56,7 @@ namespace M266A_Dutly
 
             _oxfood = _oxfood + _foodGathered;
             Console.ResetColor();
-            Console.WriteLine("_________________________________");
+            //Console.WriteLine("_________________________________");
         }
 
         //Every round this method gets called automatically. It gives your people and your oxen Food.

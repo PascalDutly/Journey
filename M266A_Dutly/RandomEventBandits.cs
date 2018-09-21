@@ -6,6 +6,7 @@ namespace M266A_Dutly // UNFINISHED
 {
     public class RandomEventBandits
     {
+        //This prints the Text
         public void PrintText()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -17,14 +18,14 @@ namespace M266A_Dutly // UNFINISHED
             PrintMenu();
             CheckEntry(Convert.ToInt32(Console.ReadLine()));
         }
-
+        //This prints the menu
         public static void PrintMenu()
         {
             Console.WriteLine("Press [1] to shoot with your revolver");
             Console.WriteLine("Press [2] to start a duel");
             Console.WriteLine("Press [3] to give your loot");
         }
-
+        //This only checks what you chose (Please only integers)
         public void CheckEntry(int entry)
         {
             switch (entry)
@@ -37,6 +38,9 @@ namespace M266A_Dutly // UNFINISHED
                     break;
                 case 3:
                     this.Option3();
+                    break;
+                default:
+                    Console.WriteLine("Invalid");
                     break;
             }
         }

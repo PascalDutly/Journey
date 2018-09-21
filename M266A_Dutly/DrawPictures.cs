@@ -16,7 +16,7 @@ namespace M266A_Dutly
                 {
                     Console.Write(" ");
                 }
-                //The color of the stars get changed depending on the value of whiteSpace
+                //The color of the stars get changed depending on the value of "whiteSpace"
                 if (whiteSpace < 12)
                     Console.ForegroundColor = ConsoleColor.Blue;
                 
@@ -32,6 +32,7 @@ namespace M266A_Dutly
             Console.WriteLine();
         }
 
+        //I wanted to make more pictures but it ended up looking bad. It only really works with simple drawings
         
     }
 }

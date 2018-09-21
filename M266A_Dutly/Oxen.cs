@@ -9,7 +9,7 @@ namespace M266A_Dutly
         //This method kills an ox and it shows you how many oxen are left
         public void OxDies()
         {
-            Console.WriteLine("On of your oxen died");
+            Console.WriteLine("One of your oxen died");
             _oxCount--;
             if (_oxCount <= 0)
             {

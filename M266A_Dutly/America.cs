@@ -13,8 +13,9 @@ namespace M266A_Dutly
         {
             PrintMenu();
             this.CheckEntry(Convert.ToInt32(Console.ReadLine()));
+            Console.WriteLine("__________Random Event___________");
             this.RandomEvent();
-            Console.WriteLine("_________________________________");
+            Console.WriteLine("_________Random Village__________");
             RandomVillageEncounter randomVillageEncounter = new RandomVillageEncounter();
             randomVillageEncounter.RandomChanceVillageEncounter();
             Console.WriteLine("_________________________________");
@@ -97,7 +98,7 @@ namespace M266A_Dutly
             //Console.ForegroundColor = ConsoleColor.Blue;
 
             Random rnd = new Random();
-            int random = rnd.Next(1, 7);
+            int random = rnd.Next(1, 8);
 
             switch (random)
             {
@@ -122,6 +123,10 @@ namespace M266A_Dutly
                     randomEventDisease.PrintText();
                     break;
                 case 6:
+                    RandomEventRiver randomEventRiver = new RandomEventRiver();
+                    randomEventRiver.PrintText();
+                    break;
+                case 7:
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine(
                         "Today is a calm day. Nothing special seems to happen. Consider yourself lucky. Not every day goes so well");
@@ -180,12 +185,14 @@ namespace M266A_Dutly
             Console.ReadLine();
             Environment.Exit(0);
         }
-
+        //This lets you save your current game. You can also overwrite an existing savegame 
         public void Save()
         {
             Resources resources = new Resources();
 
             Console.WriteLine("What slot do you want to save it in? (Please only use integers)");
+            Console.WriteLine("The Savefiles below already exist. You overwrite them by selecting their number");
+            Program.PrintSaveGameNames();
             int saveSlot = Convert.ToInt32(Console.ReadLine());
             
             string[] items =
@@ -203,7 +210,7 @@ namespace M266A_Dutly
             Console.WriteLine();
         }
 
-        public int Difficulty
+        public static int Difficulty
         {
             get => _difficulty;
             set => _difficulty = value;

@@ -4,6 +4,7 @@ namespace M266A_Dutly
 {
     public class RandomEventWeirdStone
     {
+        //This draws the text
         public void PrintText()
         {
             DrawStonePlate();
@@ -18,7 +19,7 @@ namespace M266A_Dutly
 
             this.SolveRiddle(Console.ReadLine());
         }
-
+        //If the player solves the riddle he gets to see a secret message
         public void SolveRiddle(string solution)
         {
             if (solution == "Dutly is cool")
@@ -31,7 +32,7 @@ namespace M266A_Dutly
                 Console.WriteLine("Incorrect");
             }
         }
-
+        // This draws a text file with an ascii art (that's way too big)
         public static void DrawStonePlate()
         {
             string text =

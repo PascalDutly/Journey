@@ -58,15 +58,18 @@ namespace M266A_Dutly
         //You get a little money
         private void Option3()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Resources resources = new Resources();
             Random rnd = new Random();
             Console.WriteLine("It's probably best to just put him down.");
             int loot = rnd.Next(3, 11);
 
             resources.Money += loot;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("You got {0} Dollars, but was it really worth it?", loot);
+            Console.ResetColor();
         }
-
+        //Checks if you have enough items
         private void CheckIfEnoughItems(int medicineRequired, int foodRequired)
         {
             Resources resources = new Resources();

@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02278545-db35-42ae-88d8-a3831b3f22ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.M266A_Dutly/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.M266A_Dutly/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.M266A_Dutly/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.M266A_Dutly/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/America.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/America.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M266A_Dutly/M266A_Dutly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/M266A_Dutly.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/DrawPictures.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/DrawPictures.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/Oxen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/Oxen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomEventAbandonedWagon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventAbandonedWagon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomEventBandits.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventBandits.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M266A_Dutly/Resources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/Resources.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/bin/Debug/M266A_Dutly.exe" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/bin/Debug/M266A_Dutly.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/bin/Debug/M266A_Dutly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/bin/Debug/M266A_Dutly.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M266A_Dutly/obj/Debug/CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/obj/Debug/CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/obj/Debug/M266A_Dutly.exe" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/obj/Debug/M266A_Dutly.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M266A_Dutly/obj/Debug/M266A_Dutly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/M266A_Dutly/obj/Debug/M266A_Dutly.pdb" afterDir="false" />
     </list>
@@ -28,109 +30,63 @@
     <session id="-1006784140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="19" />
+          <entry key="cs" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="19" />
+          <entry key="C#" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="21227" />
-          <entry key="txt" value="42" />
+          <entry key="cs" value="24323" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="21227" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="C#" value="24323" />
+          <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/M266A_Dutly/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="135">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
-                <marker date="1537435638638" expanded="false" signature="6:69" ph="..." />
-                <marker date="1537435638638" expanded="true" signature="92:3051" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="121:3049" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="174:772" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="550:643" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="660:762" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="913:2620" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="1281:2482" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="1678:1802" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="2499:2610" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="2716:3043" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="2947:3033" ph="{...}" />
-                <marker date="1537435638638" expanded="true" signature="3052:3272" ph="/* Never give a string on the menus or the game will crash ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M266A_Dutly/America.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1065">
-              <caret line="108" column="106" selection-start-line="108" selection-start-column="106" selection-end-line="108" selection-end-column="106" />
-              <folding>
-                <marker date="1537436321757" expanded="false" signature="6:90" ph="..." />
-                <marker date="1537436321757" expanded="true" signature="113:7857" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="140:7855" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="261:892" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="948:1179" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="1308:1654" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="1726:2183" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="2269:3213" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="2358:3168" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="3316:4913" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="3495:4867" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="5012:5714" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="5064:5319" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="5367:5535" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="5570:5629" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="5646:5704" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="5724:5875" ph="/* This is a rating system. Every oxen gives you 1000 points and every person gives you 3000 points ... */" />
-                <marker date="1537436321757" expanded="true" signature="5904:6671" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="6699:7726" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="6978:7300" ph="{...}" />
-                <marker date="1537436321757" expanded="true" signature="7456:7627" ph="/* string text = System.IO.File.ReadAllText(@&quot;C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGam ... */" />
-                <marker date="1537436321757" expanded="true" signature="7757:7849" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1537434358229" expanded="true" signature="21:80" ph="{...}" />
-                <marker date="1537434358229" expanded="true" signature="57:78" ph="{...}" />
+                <marker date="1537516278814" expanded="false" signature="6:69" ph="..." />
+                <marker date="1537516278814" expanded="true" signature="92:3321" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="121:3319" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="245:940" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="718:811" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="828:930" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="1081:2890" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="1449:2672" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="1846:1913" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="2689:2846" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="2986:3313" ph="{...}" />
+                <marker date="1537516278814" expanded="true" signature="3217:3303" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,24 +95,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="69" column="80" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
+            <state relative-caret-position="375">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
-                <marker date="1537435895296" expanded="true" signature="36:2773" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="74:2771" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="112:306" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="340:541" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="585:834" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="622:824" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="866:1595" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="1109:1361" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="1378:1585" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="1627:2236" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="1750:1961" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="1978:2226" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="2303:2765" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="2419:2545" ph="{...}" />
-                <marker date="1537435895296" expanded="true" signature="2562:2742" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="74:3177" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="143:337" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="401:602" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="681:930" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="718:920" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="1021:1750" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="1264:1516" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="1533:1740" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="1847:2456" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="1970:2181" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="2198:2446" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="2578:3171" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="2766:2930" ph="{...}" />
+                <marker date="1537515532326" expanded="true" signature="2947:3127" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M266A_Dutly/America.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3105">
+              <caret line="209" column="32" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
+              <folding>
+                <marker date="1537512224479" expanded="false" signature="6:90" ph="..." />
+                <marker date="1537512224479" expanded="true" signature="140:8359" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="261:960" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="1016:1247" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="1376:1722" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="1794:2251" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="2337:3281" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="2426:3236" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="3384:5162" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="3563:5116" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="5261:5963" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="5313:5568" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="5616:5784" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="5819:5878" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="5895:5953" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="5973:6124" ph="/* This is a rating system. Every oxen gives you 1000 points and every person gives you 3000 points ... */" />
+                <marker date="1537512224479" expanded="true" signature="6153:6920" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="7040:8223" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="7475:7797" ph="{...}" />
+                <marker date="1537512224479" expanded="true" signature="7953:8124" ph="/* string text = System.IO.File.ReadAllText(@&quot;C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGam ... */" />
+                <marker date="1537512224479" expanded="true" signature="8261:8353" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+              <folding>
+                <marker date="1537466891013" expanded="false" signature="6:51" ph="..." />
+                <marker date="1537466891013" expanded="true" signature="110:2542" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="187:487" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="556:698" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="778:1129" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="815:1119" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="1238:1552" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="1626:2536" ph="{...}" />
+                <marker date="1537466891013" expanded="true" signature="1821:2526" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -165,27 +172,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/M266A_Dutly/Resources.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-479">
-              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
               <folding>
-                <marker date="1537429545473" expanded="false" signature="6:52" ph="..." />
-                <marker date="1537429545473" expanded="true" signature="75:3825" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="104:3823" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="481:1168" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="679:845" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="862:963" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="1268:1916" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="1467:1655" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="1672:1756" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="2050:2706" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="2243:2413" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="2456:2648" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="2790:3246" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="3280:3376" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="3401:3481" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="3507:3589" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="3616:3700" ph="{...}" />
-                <marker date="1537429545473" expanded="true" signature="3729:3817" ph="{...}" />
+                <marker date="1537511954701" expanded="false" signature="6:52" ph="..." />
+                <marker date="1537511954701" expanded="true" signature="104:3827" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="481:1170" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="679:845" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="862:963" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="1270:1920" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="1469:1657" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="1674:1758" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="2054:2710" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="2247:2417" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="2460:2652" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="2794:3250" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="3284:3380" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="3405:3485" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="3511:3593" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="3620:3704" ph="{...}" />
+                <marker date="1537511954701" expanded="true" signature="3733:3821" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -194,10 +200,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/M266A_Dutly/People.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
+            <state relative-caret-position="195">
               <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
-                <marker date="1537264287433" expanded="true" signature="36:1016" ph="{...}" />
                 <marker date="1537264287433" expanded="true" signature="62:1014" ph="{...}" />
                 <marker date="1537264287433" expanded="true" signature="259:875" ph="{...}" />
                 <marker date="1537264287433" expanded="true" signature="451:518" ph="{...}" />
@@ -210,18 +215,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventAbandonedWagon.cs">
+        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="885">
+              <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
               <folding>
-                <marker date="1537434332528" expanded="false" signature="6:52" ph="..." />
-                <marker date="1537434332528" expanded="true" signature="75:1853" ph="{...}" />
-                <marker date="1537434332528" expanded="true" signature="120:1851" ph="{...}" />
-                <marker date="1537434332528" expanded="true" signature="158:596" ph="{...}" />
-                <marker date="1537434332528" expanded="true" signature="692:1198" ph="{...}" />
-                <marker date="1537434332528" expanded="true" signature="1216:1580" ph="/* This code would've drawn a wagon. The end result however looked like nothing so i scrapped the idea. The conce ... */" />
-                <marker date="1537434332528" expanded="true" signature="1589:1845" ph="/* public static void DrawAbandonedWagon() ... */" />
+                <marker date="1537513782849" expanded="false" signature="6:53" ph="..." />
+                <marker date="1537513782849" expanded="true" signature="121:3561" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="195:613" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="681:922" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="1031:1352" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="1068:1342" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="1444:1573" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="1636:1835" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="1899:2401" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="2523:3555" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="2672:2901" ph="{...}" />
+                <marker date="1537513782849" expanded="true" signature="2918:3545" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <marker date="1537467349740" expanded="true" signature="77:1487" ph="{...}" />
+                <marker date="1537467349740" expanded="true" signature="145:682" ph="{...}" />
+                <marker date="1537467349740" expanded="true" signature="805:1139" ph="{...}" />
+                <marker date="1537467349740" expanded="true" signature="860:1036" ph="{...}" />
+                <marker date="1537467349740" expanded="true" signature="1053:1129" ph="{...}" />
+                <marker date="1537467349740" expanded="true" signature="1256:1481" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+              <folding>
+                <marker date="1537513132465" expanded="false" signature="6:42" ph="..." />
+                <marker date="1537513132465" expanded="true" signature="107:5082" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="300:1282" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="488:1238" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="1360:1473" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="1556:1769" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="1851:2585" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="1888:2575" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="2666:3111" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="3198:4556" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="3358:4476" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="4654:5076" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="4765:4937" ph="{...}" />
+                <marker date="1537513132465" expanded="true" signature="4954:5032" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -230,60 +282,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventBandits.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+            <state relative-caret-position="90">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
-                <marker date="1537436700034" expanded="false" signature="6:90" ph="..." />
-                <marker date="1537436700034" expanded="true" signature="127:5009" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="165:5007" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="203:630" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="670:884" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="927:1263" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="964:1253" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="1368:2535" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="1560:2525" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="2678:4343" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="3160:4299" ph="{...}" />
-                <marker date="1537436700034" expanded="true" signature="4448:5001" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-              <folding>
-                <marker date="1537436261147" expanded="false" signature="6:53" ph="..." />
-                <marker date="1537436261147" expanded="true" signature="76:3372" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="121:3370" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="195:613" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="681:922" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="1031:1352" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="1068:1342" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="1444:1573" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="1636:1835" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="1899:2251" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="2332:3364" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="2481:2710" ph="{...}" />
-                <marker date="1537436261147" expanded="true" signature="2727:3354" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/M266A_Dutly/DrawPictures.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding>
-                <marker date="1537260912171" expanded="true" signature="68:1029" ph="{...}" />
-                <marker date="1537260912171" expanded="true" signature="167:1013" ph="{...}" />
-                <marker date="1537260912171" expanded="true" signature="271:936" ph="{...}" />
-                <marker date="1537260912171" expanded="true" signature="388:464" ph="{...}" />
+                <marker date="1537466582888" expanded="false" signature="6:90" ph="..." />
+                <marker date="1537466582888" expanded="true" signature="165:5234" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="234:661" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="731:945" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="1052:1490" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="1089:1480" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="1595:2762" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="1787:2752" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="2905:4570" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="3387:4526" ph="{...}" />
+                <marker date="1537466582888" expanded="true" signature="4675:5228" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -323,20 +335,20 @@
       <list>
         <option value="$PROJECT_DIR$/M266A_Dutly/RandomEvents.cs" />
         <option value="$PROJECT_DIR$/M266A_Dutly/Class.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/DrawPictures.cs" />
         <option value="$PROJECT_DIR$/M266A_Dutly/People.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/Oxen.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/Resources.cs" />
         <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventDesease.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/Oxen.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/DrawPictures.cs" />
         <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventAbandonedWagon.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/Program.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs" />
-        <option value="$PROJECT_DIR$/M266A_Dutly/America.cs" />
         <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventBandits.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/Resources.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/America.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs" />
+        <option value="$PROJECT_DIR$/M266A_Dutly/Program.cs" />
       </list>
     </option>
   </component>
@@ -347,10 +359,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1296" />
-    <option name="height" value="875" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -436,7 +448,10 @@
       <workItem from="1537252254989" duration="10981000" />
       <workItem from="1537285657503" duration="4440000" />
       <workItem from="1537339020264" duration="10682000" />
-      <workItem from="1537425243279" duration="10387000" />
+      <workItem from="1537425243279" duration="10623000" />
+      <workItem from="1537464044916" duration="3538000" />
+      <workItem from="1537511624231" duration="4538000" />
+      <workItem from="1537516676151" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="VCS commited">
       <created>1537170012002</created>
@@ -459,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537432441832</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 20.9.18 11:57">
+      <created>1537437387187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537437387187</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86586000" />
+    <option name="totallyTimeSpent" value="94903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,12 +500,12 @@
     <frame x="-8" y="-8" width="1936" height="959" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45939395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35757574" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,7 +517,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.29333332" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.32242423" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.3212121" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -516,7 +538,8 @@
     <MESSAGE value="VCS commited" />
     <MESSAGE value="Commit 19.9.18 11:01" />
     <MESSAGE value="Commit 20.9.18 10:35" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 20.9.18 10:35" />
+    <MESSAGE value="Commit 20.9.18 11:57" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 20.9.18 11:57" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,178 +554,150 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEvents.cs" />
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventsAbandonedWagon.cs" />
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/Oxen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/DrawPictures.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <marker date="1537260912171" expanded="true" signature="68:1029" ph="{...}" />
-            <marker date="1537260912171" expanded="true" signature="167:1013" ph="{...}" />
-            <marker date="1537260912171" expanded="true" signature="271:936" ph="{...}" />
-            <marker date="1537260912171" expanded="true" signature="388:464" ph="{...}" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="34" column="111" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs">
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/Oxen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
-          <folding>
-            <marker date="1537429520945" expanded="false" signature="6:42" ph="..." />
-            <marker date="1537429520945" expanded="true" signature="65:4622" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="107:4620" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="204:1207" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="392:1163" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="1246:1359" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="1399:1612" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="1655:2180" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="1692:2170" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="2261:2706" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="2782:4140" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="2942:4060" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="4192:4614" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="4303:4475" ph="{...}" />
-            <marker date="1537429520945" expanded="true" signature="4492:4570" ph="{...}" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventAbandonedWagon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="135">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
-            <marker date="1537435638638" expanded="false" signature="6:69" ph="..." />
-            <marker date="1537435638638" expanded="true" signature="92:3051" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="121:3049" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="174:772" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="550:643" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="660:762" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="913:2620" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="1281:2482" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="1678:1802" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="2499:2610" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="2716:3043" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="2947:3033" ph="{...}" />
-            <marker date="1537435638638" expanded="true" signature="3052:3272" ph="/* Never give a string on the menus or the game will crash ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/America.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1065">
-          <caret line="108" column="106" selection-start-line="108" selection-start-column="106" selection-end-line="108" selection-end-column="106" />
-          <folding>
-            <marker date="1537436321757" expanded="false" signature="6:90" ph="..." />
-            <marker date="1537436321757" expanded="true" signature="113:7857" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="140:7855" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="261:892" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="948:1179" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="1308:1654" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="1726:2183" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="2269:3213" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="2358:3168" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="3316:4913" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="3495:4867" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="5012:5714" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="5064:5319" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="5367:5535" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="5570:5629" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="5646:5704" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="5724:5875" ph="/* This is a rating system. Every oxen gives you 1000 points and every person gives you 3000 points ... */" />
-            <marker date="1537436321757" expanded="true" signature="5904:6671" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="6699:7726" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="6978:7300" ph="{...}" />
-            <marker date="1537436321757" expanded="true" signature="7456:7627" ph="/* string text = System.IO.File.ReadAllText(@&quot;C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGam ... */" />
-            <marker date="1537436321757" expanded="true" signature="7757:7849" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1537434358229" expanded="true" signature="21:80" ph="{...}" />
-            <marker date="1537434358229" expanded="true" signature="57:78" ph="{...}" />
+            <marker date="1537516278814" expanded="false" signature="6:69" ph="..." />
+            <marker date="1537516278814" expanded="true" signature="92:3321" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="121:3319" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="245:940" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="718:811" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="828:930" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="1081:2890" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="1449:2672" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="1846:1913" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="2689:2846" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="2986:3313" ph="{...}" />
+            <marker date="1537516278814" expanded="true" signature="3217:3303" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventDisease.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="69" column="80" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
+        <state relative-caret-position="375">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
-            <marker date="1537435895296" expanded="true" signature="36:2773" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="74:2771" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="112:306" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="340:541" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="585:834" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="622:824" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="866:1595" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="1109:1361" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="1378:1585" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="1627:2236" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="1750:1961" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="1978:2226" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="2303:2765" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="2419:2545" ph="{...}" />
-            <marker date="1537435895296" expanded="true" signature="2562:2742" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="74:3177" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="143:337" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="401:602" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="681:930" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="718:920" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="1021:1750" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="1264:1516" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="1533:1740" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="1847:2456" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="1970:2181" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="2198:2446" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="2578:3171" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="2766:2930" ph="{...}" />
+            <marker date="1537515532326" expanded="true" signature="2947:3127" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/America.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3105">
+          <caret line="209" column="32" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
+          <folding>
+            <marker date="1537512224479" expanded="false" signature="6:90" ph="..." />
+            <marker date="1537512224479" expanded="true" signature="140:8359" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="261:960" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="1016:1247" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="1376:1722" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="1794:2251" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="2337:3281" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="2426:3236" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="3384:5162" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="3563:5116" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="5261:5963" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="5313:5568" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="5616:5784" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="5819:5878" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="5895:5953" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="5973:6124" ph="/* This is a rating system. Every oxen gives you 1000 points and every person gives you 3000 points ... */" />
+            <marker date="1537512224479" expanded="true" signature="6153:6920" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="7040:8223" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="7475:7797" ph="{...}" />
+            <marker date="1537512224479" expanded="true" signature="7953:8124" ph="/* string text = System.IO.File.ReadAllText(@&quot;C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\SaveGames\SaveGam ... */" />
+            <marker date="1537512224479" expanded="true" signature="8261:8353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventRiver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+          <folding>
+            <marker date="1537466891013" expanded="false" signature="6:51" ph="..." />
+            <marker date="1537466891013" expanded="true" signature="110:2542" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="187:487" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="556:698" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="778:1129" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="815:1119" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="1238:1552" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="1626:2536" ph="{...}" />
+            <marker date="1537466891013" expanded="true" signature="1821:2526" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/Resources.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="525">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding>
-            <marker date="1537429545473" expanded="false" signature="6:52" ph="..." />
-            <marker date="1537429545473" expanded="true" signature="75:3825" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="104:3823" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="481:1168" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="679:845" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="862:963" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="1268:1916" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="1467:1655" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="1672:1756" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="2050:2706" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="2243:2413" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="2456:2648" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="2790:3246" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="3280:3376" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="3401:3481" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="3507:3589" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="3616:3700" ph="{...}" />
-            <marker date="1537429545473" expanded="true" signature="3729:3817" ph="{...}" />
+            <marker date="1537511954701" expanded="false" signature="6:52" ph="..." />
+            <marker date="1537511954701" expanded="true" signature="104:3827" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="481:1170" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="679:845" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="862:963" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="1270:1920" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="1469:1657" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="1674:1758" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="2054:2710" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="2247:2417" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="2460:2652" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="2794:3250" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="3284:3380" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="3405:3485" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="3511:3593" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="3620:3704" ph="{...}" />
+            <marker date="1537511954701" expanded="true" signature="3733:3821" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/People.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
+        <state relative-caret-position="195">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
-            <marker date="1537264287433" expanded="true" signature="36:1016" ph="{...}" />
             <marker date="1537264287433" expanded="true" signature="62:1014" ph="{...}" />
             <marker date="1537264287433" expanded="true" signature="259:875" ph="{...}" />
             <marker date="1537264287433" expanded="true" signature="451:518" ph="{...}" />
@@ -713,61 +708,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventAbandonedWagon.cs">
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="885">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
           <folding>
-            <marker date="1537434332528" expanded="false" signature="6:52" ph="..." />
-            <marker date="1537434332528" expanded="true" signature="75:1853" ph="{...}" />
-            <marker date="1537434332528" expanded="true" signature="120:1851" ph="{...}" />
-            <marker date="1537434332528" expanded="true" signature="158:596" ph="{...}" />
-            <marker date="1537434332528" expanded="true" signature="692:1198" ph="{...}" />
-            <marker date="1537434332528" expanded="true" signature="1216:1580" ph="/* This code would've drawn a wagon. The end result however looked like nothing so i scrapped the idea. The conce ... */" />
-            <marker date="1537434332528" expanded="true" signature="1589:1845" ph="/* public static void DrawAbandonedWagon() ... */" />
+            <marker date="1537513782849" expanded="false" signature="6:53" ph="..." />
+            <marker date="1537513782849" expanded="true" signature="121:3561" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="195:613" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="681:922" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="1031:1352" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="1068:1342" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="1444:1573" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="1636:1835" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="1899:2401" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="2523:3555" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="2672:2901" ph="{...}" />
+            <marker date="1537513782849" expanded="true" signature="2918:3545" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventWeirdStone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <marker date="1537467349740" expanded="true" signature="77:1487" ph="{...}" />
+            <marker date="1537467349740" expanded="true" signature="145:682" ph="{...}" />
+            <marker date="1537467349740" expanded="true" signature="805:1139" ph="{...}" />
+            <marker date="1537467349740" expanded="true" signature="860:1036" ph="{...}" />
+            <marker date="1537467349740" expanded="true" signature="1053:1129" ph="{...}" />
+            <marker date="1537467349740" expanded="true" signature="1256:1481" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomVillageEncounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <marker date="1537513132465" expanded="false" signature="6:42" ph="..." />
+            <marker date="1537513132465" expanded="true" signature="107:5082" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="300:1282" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="488:1238" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="1360:1473" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="1556:1769" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="1851:2585" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="1888:2575" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="2666:3111" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="3198:4556" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="3358:4476" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="4654:5076" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="4765:4937" ph="{...}" />
+            <marker date="1537513132465" expanded="true" signature="4954:5032" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventBandits.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+        <state relative-caret-position="90">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <marker date="1537436700034" expanded="false" signature="6:90" ph="..." />
-            <marker date="1537436700034" expanded="true" signature="127:5009" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="165:5007" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="203:630" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="670:884" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="927:1263" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="964:1253" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="1368:2535" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="1560:2525" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="2678:4343" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="3160:4299" ph="{...}" />
-            <marker date="1537436700034" expanded="true" signature="4448:5001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/M266A_Dutly/RandomEventStarvingPerson.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <marker date="1537436261147" expanded="false" signature="6:53" ph="..." />
-            <marker date="1537436261147" expanded="true" signature="76:3372" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="121:3370" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="195:613" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="681:922" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="1031:1352" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="1068:1342" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="1444:1573" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="1636:1835" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="1899:2251" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="2332:3364" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="2481:2710" ph="{...}" />
-            <marker date="1537436261147" expanded="true" signature="2727:3354" ph="{...}" />
+            <marker date="1537466582888" expanded="false" signature="6:90" ph="..." />
+            <marker date="1537466582888" expanded="true" signature="165:5234" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="234:661" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="731:945" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="1052:1490" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="1089:1480" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="1595:2762" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="1787:2752" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="2905:4570" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="3387:4526" ph="{...}" />
+            <marker date="1537466582888" expanded="true" signature="4675:5228" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -5,6 +5,7 @@ namespace M266A_Dutly
 {
     public class RandomEventAbandonedWagon
     {
+        //This prints the text
         public void PrintText()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;

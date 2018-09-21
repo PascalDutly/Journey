@@ -6,13 +6,16 @@ namespace M266A_Dutly
 {
     internal class Program
     {
+        //This creates a new game or you can choose to load a gavegame
         public static void Main(string[] args)
         {
             America america = new America();
 
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             string title = System.IO.File.ReadAllText(@"C:\Users\vmadmin\RiderProjects\M266A_Dutly\assets\TitleScreen.txt");
             Console.Write(title);
             Console.WriteLine();
+            Console.ResetColor();
             
             Console.WriteLine("Do you want to load a savegame? [y/n]");
             if (Console.ReadLine() == "y")
@@ -46,12 +49,12 @@ namespace M266A_Dutly
                                                saveSlot + ".txt");
                 while ((items[counter] = file.ReadLine()) != null)
                 {
-                    //Console.WriteLine(items[counter]);
                     counter++;
                 }
-
                 file.Close();
 
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                
                 America america = new America();
                 Resources resources = new Resources();
                 resources.Money = Convert.ToInt32(items[0]);
@@ -60,15 +63,16 @@ namespace M266A_Dutly
                 resources.Oxfood = Convert.ToInt32(items[3]);
                 Oxen.OxCount = Convert.ToInt32(items[4]);
                 People.PersonCount = Convert.ToInt32(items[5]);
-                america.Difficulty = Convert.ToInt32(items[6]);
+                America.Difficulty = Convert.ToInt32(items[6]);
                 Console.WriteLine("file loaded successfully!");
                 america.Start();
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("This savegame doesn't exist");
-                
             }
+            Console.ResetColor();
         }
         //This code just displays the Savegames
         public static void PrintSaveGameNames()
@@ -90,3 +94,5 @@ namespace M266A_Dutly
 // Cyan: Text
 // Green: Positive Event
 // Red: Negative event
+
+//WARNING: The game doesn't tell you that you overwrite an existing savefile

@@ -6,21 +6,20 @@ namespace M266A_Dutly
     public class RandomVillageEncounter
     {
         private int VillageChance = 6;
-
+        //This method gets called every round. There's a 20% chance that you encounter a village
         public void RandomChanceVillageEncounter()
         {
             Random rnd = new Random();
 
-            int Village = rnd.Next(VillageChance);
+            int village = rnd.Next(VillageChance);
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            switch (Village)
+            switch (village)
             {
                 case 1:
                     Console.WriteLine("In the distance you see something. There seems to be a village. You immediately head towards it!");
                     Console.ResetColor();
                     VillageGameplay();
-                    
                     break;
                 case 2:
                     Console.WriteLine("In the distance you see something. When you go towards it it suddenly disappears. It was only an illusion. Apparently this journey is making you crazy");
@@ -31,20 +30,20 @@ namespace M266A_Dutly
             }
             Console.ResetColor();
         }
-
+        //This is the main village menu
         public void VillageGameplay()
         {
             PrintMenuVillage();
             CheckEntry(Convert.ToInt32(Console.ReadLine()));
         }
-
+        //This prints the main village menu
         public void PrintMenuVillage()
         {
             Console.WriteLine("Press [1] to head to the shop");
             Console.WriteLine("Press [2] to check your items");
             Console.WriteLine("Press [3] to leave the village");
         }
-
+        //This checks if what you chose
         public void CheckEntry(int entry)
         {
             switch (entry)
@@ -58,7 +57,12 @@ namespace M266A_Dutly
                     this.VillageGameplay();
                     break;
                 case 3:
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("As you leave the village, the night breaks in.");
+                    Console.ResetColor();
+                    break;
+                default:
+                    Console.WriteLine("Invalid");
                     break;
             }
         }
@@ -74,7 +78,7 @@ namespace M266A_Dutly
             Console.WriteLine("Press [0] to leave the shop");
         }
         
-        //UNFINISHED
+        //These are the choices
         public void ShopCheckEntry(int entry)
         {
             Resources resources = new Resources();
@@ -117,7 +121,7 @@ namespace M266A_Dutly
             Console.ResetColor();
             this.VillageGameplay();
         }
-
+        //This checks if you have enough money
         public void EnoughMoney(int moneyRequired)
         {
             Resources resources = new Resources();
