@@ -89,7 +89,7 @@ namespace M266A_Dutly
 
             Console.ResetColor();
         }
-        //
+        
         //This method shows you your items
         public static void ItemStatus()
         {
