@@ -6,7 +6,7 @@ namespace M266A_Dutly
 {
     internal class Program
     {
-        //This creates a new game or you can choose to load a gavegame
+        //This creates a new game or you can choose to load a savegame
         public static void Main(string[] args)
         {
             America america = new America();
@@ -65,6 +65,7 @@ namespace M266A_Dutly
                 People.PersonCount = Convert.ToInt32(items[5]);
                 America.Difficulty = Convert.ToInt32(items[6]);
                 Console.WriteLine("file loaded successfully!");
+                Console.ResetColor();
                 america.Start();
             }
             else
@@ -72,7 +73,6 @@ namespace M266A_Dutly
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("This savegame doesn't exist");
             }
-            Console.ResetColor();
         }
         //This code just displays the Savegames
         public static void PrintSaveGameNames()

@@ -47,11 +47,12 @@ namespace M266A_Dutly
         //The menu gets printed
         public static void PrintMenu()
         {
-            Console.WriteLine("Press [1] to hunt for food in the wild");
+            Console.WriteLine("Press [1] to hunt food in the wild");
             Console.WriteLine("Press [2] to gather food for your oxen in the wild");
-            Console.WriteLine("Press [3] to see your items");
-            Console.WriteLine("Press [4] to save your game");
-            Console.WriteLine("Press [5] to delete your protocol (Clear the console window)");
+            Console.WriteLine("Press [3] to travel further (20km instead of 10km)");
+            Console.WriteLine("Press [4] to see your items");
+            Console.WriteLine("Press [5] to save your game");
+            Console.WriteLine("Press [6] to delete your protocol (Clear the console window)");
             Console.WriteLine("Press [0] to end the game");
         }
 
@@ -59,7 +60,6 @@ namespace M266A_Dutly
         public void CheckEntry(int entry)
         {
             Resources resources = new Resources();
-
             switch (entry)
             {
                 case 1:
@@ -69,14 +69,20 @@ namespace M266A_Dutly
                     resources.HuntOxenFood();
                     break;
                 case 3:
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("You traveled 10km further than usual.");
+                    Console.ResetColor();
+                    _difficulty -= 10;
+                    break;
+                case 4:
                     Resources.ItemStatus();
                     this.Start();
                     break;
-                case 4:
+                case 5:
                     this.Save();
                     this.Start();
                     break;
-                case 5:
+                case 6:
                     Console.Clear();
                     this.Start();
                     break;
@@ -88,7 +94,6 @@ namespace M266A_Dutly
                     Start();
                     break;
             }
-
             resources.GiveFood();
         }
 
@@ -191,7 +196,7 @@ namespace M266A_Dutly
             Resources resources = new Resources();
 
             Console.WriteLine("What slot do you want to save it in? (Please only use integers)");
-            Console.WriteLine("The Savefiles below already exist. You overwrite them by selecting their number");
+            Console.WriteLine("The Savefiles below already exist. You overwrite them by ONLY selecting their number");
             Program.PrintSaveGameNames();
             int saveSlot = Convert.ToInt32(Console.ReadLine());
             

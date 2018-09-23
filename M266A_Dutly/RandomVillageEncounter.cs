@@ -112,7 +112,7 @@ namespace M266A_Dutly
                     resources.Money += 70;
                     break;
                 case 0:
-                    this.VillageGameplay();
+                    Console.WriteLine("You left the shop without buying anything");
                     break;
                 default:
                     Console.WriteLine("Invalid");

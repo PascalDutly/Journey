@@ -8,7 +8,7 @@ namespace M266A_Dutly
         private static int _food = 15;
         private static int _money = 70;
         private static int _oxfood = 15;
-        private static int _medicine = 2;
+        private static int _medicine = 3;
         private int _maxFoodRate = 10;
         private int _maxOxFoodRate = 15;
         private int _foodGathered;
@@ -30,6 +30,9 @@ namespace M266A_Dutly
             {
                 Console.WriteLine("Your hunt failed. You got no food.");
             }
+
+            _maxFoodRate++;
+            Console.WriteLine("Your experience in hunting food increased");
 
             _food = _food + _foodGathered;
             Console.WriteLine("Food: " + _food);
@@ -54,6 +57,9 @@ namespace M266A_Dutly
                 Console.WriteLine("Your hunt failed.");
             }
 
+            _maxOxFoodRate++;
+            Console.WriteLine("Your experience in hunting oxfood increased");
+            
             _oxfood = _oxfood + _foodGathered;
             Console.ResetColor();
             //Console.WriteLine("_________________________________");
